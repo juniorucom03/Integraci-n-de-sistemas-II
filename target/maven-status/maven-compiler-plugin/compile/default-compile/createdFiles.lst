@@ -1,6 +1,6 @@
 com\bcp\sipap\model\Transferencia.class
-com\bcp\sipap\processor\QrToTransferenciaTranslator.class
-com\bcp\sipap\util\QrSampleGenerator.class
-com\bcp\sipap\model\MerchantAccountInformation.class
 com\bcp\sipap\processor\QrParseProcessor.class
+com\bcp\sipap\util\QrSampleGenerator.class
+com\bcp\sipap\processor\QrToTransferenciaTranslator.class
+com\bcp\sipap\model\MerchantAccountInformation.class
 com\bcp\sipap\processor\RechazoResultProcessor.class

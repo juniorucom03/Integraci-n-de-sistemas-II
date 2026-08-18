@@ -20,4 +20,6 @@ public final class Headers {
 
     /** Exchange property: mapa de tags TLV de nivel superior ya parseados. */
     public static final String PROP_QR_TAGS = "qrTags";
+
+    public static final String PROP_VALIDACION_OK = "validacionOk";
 }

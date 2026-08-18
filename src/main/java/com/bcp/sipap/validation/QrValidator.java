@@ -1,10 +1,10 @@
 package com.bcp.sipap.validation;
 
+import java.util.Map;
+
 import com.bcp.sipap.parser.QrParseException;
 import com.bcp.sipap.parser.QrTlvParser;
 import com.bcp.sipap.util.BankCatalog;
-
-import java.util.Map;
 
 /**
  * Reglas de validación de negocio sobre los campos ya interpretados (TLV) de
