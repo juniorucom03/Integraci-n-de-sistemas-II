@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/banco/0003/transferencias"
+  },
+  "response": {
+    "status": 400,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "resultado": "RECHAZADA",
+      "banco": "0003",
+      "mensaje": "Cuenta destino inhabilitada"
+    }
+  }
+}

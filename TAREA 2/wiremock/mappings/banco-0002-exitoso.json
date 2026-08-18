@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/banco/0002/transferencias"
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "resultado": "APROBADA",
+      "banco": "0002",
+      "mensaje": "Transferencia acreditada correctamente"
+    }
+  }
+}

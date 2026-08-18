@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  artemis:
+    image: apache/activemq-artemis:2.33.0
+    container_name: sipap-artemis
+    ports:
+      - "61616:61616"   # protocolo core / JMS
+      - "8161:8161"     # consola web de administración
+    environment:
+      ARTEMIS_USER: artemis
+      ARTEMIS_PASSWORD: artemis
+      ANONYMOUS_LOGIN: "false"
+    networks:
+      - sipap-net
+
+  banco-mock:
+    image: wiremock/wiremock:3.5.4
+    container_name: sipap-banco-mock
+    command: ["--global-response-templating", "--verbose"]
+    ports:
+      - "9561:8080"
+    volumes:
+      - ./wiremock/mappings:/home/wiremock/mappings
+    networks:
+      - sipap-net
+
+networks:
+  sipap-net:
+    driver: bridge
