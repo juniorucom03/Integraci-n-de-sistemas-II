@@ -2,7 +2,6 @@ package com.sipap.config;
 
 import org.apache.activemq.artemis.jms.client.ActiveMQJMSConnectionFactory;
 import org.apache.camel.component.jms.JmsComponent;
-import org.messaginghub.pooled.jms.JmsPoolConnectionFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,20 +23,13 @@ public class JmsConfig {
     @Bean
     public ConnectionFactory jmsConnectionFactory() {
 
-        ActiveMQJMSConnectionFactory raw =
-                new ActiveMQJMSConnectionFactory(
-                        brokerUrl,
-                        user,
-                        password
-                );
+        ActiveMQJMSConnectionFactory factory =
+                new ActiveMQJMSConnectionFactory(brokerUrl);
 
-        JmsPoolConnectionFactory pooled =
-                new JmsPoolConnectionFactory();
+        factory.setUser(user);
+        factory.setPassword(password);
 
-        pooled.setConnectionFactory(raw);
-        pooled.setMaxConnections(10);
-
-        return pooled;
+        return factory;
     }
 
     @Bean

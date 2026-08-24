@@ -6,6 +6,10 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- ========================= -->
+    <!-- Spring Boot               -->
+    <!-- ========================= -->
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -13,27 +17,45 @@
         <relativePath/>
     </parent>
 
+
+    <!-- ========================= -->
+    <!-- Project                   -->
+    <!-- ========================= -->
+
     <groupId>com.sipap</groupId>
     <artifactId>sipap-tarea2</artifactId>
     <version>1.0.0</version>
 
     <name>SIPAP QR Transferencias - Tarea 2</name>
 
+
+    <!-- ========================= -->
+    <!-- Properties                -->
+    <!-- ========================= -->
+
     <properties>
+
         <java.version>17</java.version>
+
         <camel.version>4.4.1</camel.version>
-        <artemis.version>2.33.0</artemis.version>
 
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
     </properties>
 
+
     <!-- ========================= -->
-    <!-- Apache Camel BOM           -->
+    <!-- Dependency Management     -->
     <!-- ========================= -->
+
     <dependencyManagement>
+
         <dependencies>
+
+            <!-- Apache Camel BOM -->
 
             <dependency>
                 <groupId>org.apache.camel.springboot</groupId>
@@ -43,10 +65,65 @@
                 <scope>import</scope>
             </dependency>
 
+
+            <!-- ========================= -->
+            <!-- Artemis 2.33.0             -->
+            <!-- Forzar misma versión       -->
+            <!-- ========================= -->
+
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-jakarta-client</artifactId>
+                <version>2.33.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-core-client</artifactId>
+                <version>2.33.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-commons</artifactId>
+                <version>2.33.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-selector</artifactId>
+                <version>2.33.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-journal</artifactId>
+                <version>2.33.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-jdbc-store</artifactId>
+                <version>2.33.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>artemis-lockmanager-api</artifactId>
+                <version>2.33.0</version>
+            </dependency>
+
         </dependencies>
+
     </dependencyManagement>
 
+
+    <!-- ========================= -->
+    <!-- Dependencies              -->
+    <!-- ========================= -->
+
     <dependencies>
+
 
         <!-- ========================= -->
         <!-- Spring Boot               -->
@@ -102,16 +179,12 @@
             <artifactId>camel-jms-starter</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>artemis-jms-client</artifactId>
-            <version>${artemis.version}</version>
-        </dependency>
+        <!-- Cliente Artemis para Jakarta JMS -->
 
         <dependency>
-            <groupId>org.messaginghub</groupId>
-            <artifactId>pooled-jms</artifactId>
-            <version>3.1.4</version>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>artemis-jakarta-client</artifactId>
+            <version>2.33.0</version>
         </dependency>
 
 
@@ -126,7 +199,7 @@
 
 
         <!-- ========================= -->
-        <!-- TESTS                     -->
+        <!-- Tests                     -->
         <!-- ========================= -->
 
         <dependency>
@@ -146,12 +219,13 @@
         <!-- ========================= -->
         <!-- Artemis Embedded Server   -->
         <!-- ========================= -->
-      <dependency>
-          <groupId>org.apache.activemq</groupId>
-          <artifactId>artemis-server</artifactId>
-          <version>2.33.0</version>
-          <scope>test</scope>
-      </dependency>
+
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>artemis-server</artifactId>
+            <version>2.33.0</version>
+            <scope>test</scope>
+        </dependency>
 
 
         <!-- ========================= -->
@@ -165,11 +239,12 @@
             <scope>test</scope>
         </dependency>
 
+
     </dependencies>
 
 
     <!-- ========================= -->
-    <!-- BUILD                     -->
+    <!-- Build                     -->
     <!-- ========================= -->
 
     <build>

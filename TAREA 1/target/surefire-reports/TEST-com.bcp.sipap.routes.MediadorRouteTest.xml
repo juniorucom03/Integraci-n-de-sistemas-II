@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.bcp.sipap.routes.MediadorRouteTest" time="1.567" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.bcp.sipap.routes.MediadorRouteTest" time="10.367" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PY"/>
     <property name="sun.boot.library.path" value="C:\Users\Junior\java17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Junior\AppData\Local\Temp\surefire5554606166889697400\surefirebooter-20260818182729325_3.jar C:\Users\Junior\AppData\Local\Temp\surefire5554606166889697400 2026-08-18T18-27-29_102-jvmRun1 surefire-20260818182729325_1tmp surefire_0-20260818182729325_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Junior\AppData\Local\Temp\surefire8737226878832911208\surefirebooter-20260823101040328_3.jar C:\Users\Junior\AppData\Local\Temp\surefire8737226878832911208 2026-08-23T10-10-38_656-jvmRun1 surefire-20260823101040328_1tmp surefire_0-20260823101040328_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Junior\Documents\INTEGRACION DE SISTEMAS II\sipap-camel-integration\target\test-classes;C:\Users\Junior\Documents\INTEGRACION DE SISTEMAS II\sipap-camel-integration\target\classes;C:\Users\Junior\.m2\repository\org\apache\camel\camel-core\4.4.0\camel-core-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-core-engine\4.4.0\camel-core-engine-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-base-engine\4.4.0\camel-base-engine-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-core-reifier\4.4.0\camel-core-reifier-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-core-processor\4.4.0\camel-core-processor-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-core-languages\4.4.0\camel-core-languages-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-core-model\4.4.0\camel-core-model-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-xml-jaxp-util\4.4.0\camel-xml-jaxp-util-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-bean\4.4.0\camel-bean-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-browse\4.4.0\camel-browse-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-cluster\4.4.0\camel-cluster-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-controlbus\4.4.0\camel-controlbus-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-dataformat\4.4.0\camel-dataformat-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-dataset\4.4.0\camel-dataset-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-direct\4.4.0\camel-direct-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-file\4.4.0\camel-file-4.4.0.jar;C:\Users\Junior\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-health\4.4.0\camel-health-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-language\4.4.0\camel-language-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-log\4.4.0\camel-log-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-mock\4.4.0\camel-mock-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-ref\4.4.0\camel-ref-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-rest\4.4.0\camel-rest-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-tooling-model\4.4.0\camel-tooling-model-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-saga\4.4.0\camel-saga-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-scheduler\4.4.0\camel-scheduler-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-seda\4.4.0\camel-seda-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-stub\4.4.0\camel-stub-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-timer\4.4.0\camel-timer-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-validator\4.4.0\camel-validator-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-xpath\4.4.0\camel-xpath-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-xslt\4.4.0\camel-xslt-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-xml-io\4.4.0\camel-xml-io-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-xml-io-util\4.4.0\camel-xml-io-util-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-xml-jaxb\4.4.0\camel-xml-jaxb-4.4.0.jar;C:\Users\Junior\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\Junior\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\Junior\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.4\jaxb-core-4.0.4.jar;C:\Users\Junior\.m2\repository\org\eclipse\angus\angus-activation\2.0.1\angus-activation-2.0.1.jar;C:\Users\Junior\.m2\repository\com\sun\xml\bind\jaxb-impl\4.0.4\jaxb-impl-4.0.4.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-xml-jaxp\4.4.0\camel-xml-jaxp-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-yaml-io\4.4.0\camel-yaml-io-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-core-catalog\4.4.0\camel-core-catalog-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-util-json\4.4.0\camel-util-json-4.4.0.jar;C:\Users\Junior\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.16.1\jackson-dataformat-yaml-2.16.1.jar;C:\Users\Junior\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-main\4.4.0\camel-main-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-api\4.4.0\camel-api-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-base\4.4.0\camel-base-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-management-api\4.4.0\camel-management-api-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-support\4.4.0\camel-support-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-util\4.4.0\camel-util-4.4.0.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-jackson\4.4.0\camel-jackson-4.4.0.jar;C:\Users\Junior\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\Junior\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\Junior\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\Junior\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Junior\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\Junior\.m2\repository\org\apache\camel\camel-test-junit5\4.4.0\camel-test-junit5-4.4.0.jar;C:\Users\Junior\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Junior\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Junior\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Junior\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Junior\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Junior\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Junior\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Junior\.m2\repository\org\mockito\mockito-core\5.10.0\mockito-core-5.10.0.jar;C:\Users\Junior\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\Junior\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar;C:\Users\Junior\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Junior\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Junior\AppData\Local\Temp\surefire5554606166889697400\surefirebooter-20260818182729325_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Junior\AppData\Local\Temp\surefire8737226878832911208\surefirebooter-20260823101040328_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.16+8"/>
@@ -58,14 +58,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="transferenciaValidaHaciaItauSeProcesa" classname="com.bcp.sipap.routes.MediadorRouteTest" time="1.312">
-    <system-err><![CDATA[18:27:30.541 [INFO] ********************************************************************************
-18:27:30.543 [INFO] Testing: transferenciaValidaHaciaItauSeProcesa() (com.bcp.sipap.routes.MediadorRouteTest)
-18:27:30.543 [INFO] ********************************************************************************
-18:27:31.198 [INFO] Skipping starting CamelContext as isUseAdviceWith is set to true.
-18:27:31.263 [INFO] AdviceWith (*) : [Log[[RESULTADO] ${body}]] --> after [To[mock:resultado]]
-18:27:31.264 [INFO] AdviceWith route after: Route(resultado-final)[From[direct:resultado] -> [OnException[[java.lang.Exception] -> [SetHeader[motivoRechazo, simple{Error inesperado en el mediador: ${exception.message}}], To[direct:dead-letter]]], Marshal[org.apache.camel.model.dataformat.JsonDataFormat@4b45dcb8], Log[[RESULTADO] ${body}], To[mock:resultado]]]
-18:27:31.269 [INFO] Adviced route before/after as XML:
+  <testcase name="transferenciaValidaHaciaItauSeProcesa" classname="com.bcp.sipap.routes.MediadorRouteTest" time="8.612">
+    <system-err><![CDATA[10:11:30.255 [INFO] ********************************************************************************
+10:11:30.269 [INFO] Testing: transferenciaValidaHaciaItauSeProcesa() (com.bcp.sipap.routes.MediadorRouteTest)
+10:11:30.269 [INFO] ********************************************************************************
+10:11:34.739 [INFO] Skipping starting CamelContext as isUseAdviceWith is set to true.
+10:11:35.311 [INFO] AdviceWith (*) : [Log[[RESULTADO] ${body}]] --> after [To[mock:resultado]]
+10:11:35.323 [INFO] AdviceWith route after: Route(resultado-final)[From[direct:resultado] -> [OnException[[java.lang.Exception] -> [SetHeader[motivoRechazo, simple{Error inesperado en el mediador: ${exception.message}}], To[direct:dead-letter]]], Marshal[org.apache.camel.model.dataformat.JsonDataFormat@4b45dcb8], Log[[RESULTADO] ${body}], To[mock:resultado]]]
+10:11:35.378 [INFO] Adviced route before/after as XML:
 <route xmlns="http://camel.apache.org/schema/spring" id="resultado-final">
     <from uri="direct:resultado"/>
     <onException>
@@ -96,56 +96,56 @@
     <log message="[RESULTADO] ${body}"/>
     <to uri="mock:resultado"/>
 </route>
-18:27:31.498 [INFO] Apache Camel 4.4.0 (camel-1) is starting
-18:27:31.691 [INFO] Routes startup (started:12)
-18:27:31.691 [INFO]     Started resultado-final (direct://resultado)
-18:27:31.691 [INFO]     Started mediador-recepcion (direct://sipap-in)
-18:27:31.691 [INFO]     Started auditoria-wiretap (direct://audit)
-18:27:31.691 [INFO]     Started mediador-parseo (direct://parseo)
-18:27:31.691 [INFO]     Started dead-letter-channel (direct://dead-letter)
-18:27:31.691 [INFO]     Started mediador-validacion (direct://validacion)
-18:27:31.691 [INFO]     Started rechazo-negocio (direct://rechazo)
-18:27:31.691 [INFO]     Started mediador-transformacion (direct://transformacion)
-18:27:31.691 [INFO]     Started mediador-enrutamiento (direct://enrutamiento)
-18:27:31.691 [INFO]     Started consumidor-itau (direct://itau)
-18:27:31.691 [INFO]     Started consumidor-atlas (direct://atlas)
-18:27:31.691 [INFO]     Started consumidor-familiar (direct://familiar)
-18:27:31.691 [INFO] Apache Camel 4.4.0 (camel-1) started in 193ms (build:0ms init:0ms start:193ms)
-18:27:31.708 [INFO] [MEDIADOR] Recibido TX=TX-TEST-ITAU de 
-18:27:31.712 [INFO] [AUDITORIA] TX=TX-TEST-ITAU QR-crudo=00020101021132400014py.gov.bcp.sip01040015021012345678905204573153036005802PY5918COMERCIO DE PRUEBA6008ASUNCION6304A1B2
-18:27:31.728 [INFO] [TRANSFORMADO] TX=TX-TEST-ITAU -> Transferencia{idTransaccion='TX-TEST-ITAU', payloadFormatIndicator='01', pointOfInitiationMethod='11', merchantAccountInformation=MerchantAccountInformation{globallyUniqueIdentifier='py.gov.bcp.sip', codigoEntidad='0015', numeroCuenta='1234567890'}, merchantCategoryCode='5731', transactionCurrency='600', transactionAmount=null, countryCode='PY', merchantName='COMERCIO DE PRUEBA', merchantCity='ASUNCION', crc='A1B2'}
-18:27:31.744 [INFO] [ITAU] Transferencia recibida: Transferencia{idTransaccion='TX-TEST-ITAU', payloadFormatIndicator='01', pointOfInitiationMethod='11', merchantAccountInformation=MerchantAccountInformation{globallyUniqueIdentifier='py.gov.bcp.sip', codigoEntidad='0015', numeroCuenta='1234567890'}, merchantCategoryCode='5731', transactionCurrency='600', transactionAmount=null, countryCode='PY', merchantName='COMERCIO DE PRUEBA', merchantCity='ASUNCION', crc='A1B2'}
-18:27:31.809 [INFO] [RESULTADO] {"id_transaccion":"TX-TEST-ITAU","estado":"PROCESADA","mensaje":"Transferencia procesada exitosamente en Banco Itaú Paraguay (cuenta 1234567890)"}
-18:27:31.815 [INFO] Asserting: mock://resultado is satisfied
-18:27:31.817 [INFO] ********************************************************************************
-18:27:31.817 [INFO] Testing done: transferenciaValidaHaciaItauSeProcesa() (com.bcp.sipap.routes.MediadorRouteTest)
-18:27:31.817 [INFO] Took: 618ms (618 millis)
-18:27:31.817 [INFO] ********************************************************************************
-18:27:31.823 [INFO] Apache Camel 4.4.0 (camel-1) is shutting down (timeout:10s)
-18:27:31.846 [INFO] Routes stopped (stopped:12)
-18:27:31.846 [INFO]     Stopped consumidor-familiar (direct://familiar)
-18:27:31.847 [INFO]     Stopped consumidor-atlas (direct://atlas)
-18:27:31.847 [INFO]     Stopped consumidor-itau (direct://itau)
-18:27:31.847 [INFO]     Stopped mediador-enrutamiento (direct://enrutamiento)
-18:27:31.847 [INFO]     Stopped mediador-transformacion (direct://transformacion)
-18:27:31.847 [INFO]     Stopped rechazo-negocio (direct://rechazo)
-18:27:31.847 [INFO]     Stopped mediador-validacion (direct://validacion)
-18:27:31.847 [INFO]     Stopped dead-letter-channel (direct://dead-letter)
-18:27:31.847 [INFO]     Stopped mediador-parseo (direct://parseo)
-18:27:31.848 [INFO]     Stopped auditoria-wiretap (direct://audit)
-18:27:31.848 [INFO]     Stopped mediador-recepcion (direct://sipap-in)
-18:27:31.848 [INFO]     Stopped resultado-final (direct://resultado)
-18:27:31.850 [INFO] Apache Camel 4.4.0 (camel-1) shutdown in 26ms (uptime:0s)
+10:11:36.648 [INFO] Apache Camel 4.4.0 (camel-1) is starting
+10:11:37.391 [INFO] Routes startup (started:12)
+10:11:37.392 [INFO]     Started resultado-final (direct://resultado)
+10:11:37.392 [INFO]     Started mediador-recepcion (direct://sipap-in)
+10:11:37.392 [INFO]     Started auditoria-wiretap (direct://audit)
+10:11:37.392 [INFO]     Started mediador-parseo (direct://parseo)
+10:11:37.392 [INFO]     Started dead-letter-channel (direct://dead-letter)
+10:11:37.392 [INFO]     Started mediador-validacion (direct://validacion)
+10:11:37.392 [INFO]     Started rechazo-negocio (direct://rechazo)
+10:11:37.392 [INFO]     Started mediador-transformacion (direct://transformacion)
+10:11:37.392 [INFO]     Started mediador-enrutamiento (direct://enrutamiento)
+10:11:37.394 [INFO]     Started consumidor-itau (direct://itau)
+10:11:37.394 [INFO]     Started consumidor-atlas (direct://atlas)
+10:11:37.394 [INFO]     Started consumidor-familiar (direct://familiar)
+10:11:37.394 [INFO] Apache Camel 4.4.0 (camel-1) started in 740ms (build:0ms init:0ms start:740ms)
+10:11:37.781 [INFO] [MEDIADOR] Recibido TX=TX-TEST-ITAU de 
+10:11:37.812 [INFO] [AUDITORIA] TX=TX-TEST-ITAU QR-crudo=00020101021132400014py.gov.bcp.sip01040015021012345678905204573153036005802PY5918COMERCIO DE PRUEBA6008ASUNCION6304A1B2
+10:11:37.990 [INFO] [TRANSFORMADO] TX=TX-TEST-ITAU -> Transferencia{idTransaccion='TX-TEST-ITAU', payloadFormatIndicator='01', pointOfInitiationMethod='11', merchantAccountInformation=MerchantAccountInformation{globallyUniqueIdentifier='py.gov.bcp.sip', codigoEntidad='0015', numeroCuenta='1234567890'}, merchantCategoryCode='5731', transactionCurrency='600', transactionAmount=null, countryCode='PY', merchantName='COMERCIO DE PRUEBA', merchantCity='ASUNCION', crc='A1B2'}
+10:11:38.092 [INFO] [ITAU] Transferencia recibida: Transferencia{idTransaccion='TX-TEST-ITAU', payloadFormatIndicator='01', pointOfInitiationMethod='11', merchantAccountInformation=MerchantAccountInformation{globallyUniqueIdentifier='py.gov.bcp.sip', codigoEntidad='0015', numeroCuenta='1234567890'}, merchantCategoryCode='5731', transactionCurrency='600', transactionAmount=null, countryCode='PY', merchantName='COMERCIO DE PRUEBA', merchantCity='ASUNCION', crc='A1B2'}
+10:11:38.529 [INFO] [RESULTADO] {"id_transaccion":"TX-TEST-ITAU","estado":"PROCESADA","mensaje":"Transferencia procesada exitosamente en Banco Itaú Paraguay (cuenta 1234567890)"}
+10:11:38.535 [INFO] Asserting: mock://resultado is satisfied
+10:11:38.543 [INFO] ********************************************************************************
+10:11:38.543 [INFO] Testing done: transferenciaValidaHaciaItauSeProcesa() (com.bcp.sipap.routes.MediadorRouteTest)
+10:11:38.543 [INFO] Took: 3s803ms (3803 millis)
+10:11:38.543 [INFO] ********************************************************************************
+10:11:38.553 [INFO] Apache Camel 4.4.0 (camel-1) is shutting down (timeout:10s)
+10:11:38.684 [INFO] Routes stopped (stopped:12)
+10:11:38.684 [INFO]     Stopped consumidor-familiar (direct://familiar)
+10:11:38.685 [INFO]     Stopped consumidor-atlas (direct://atlas)
+10:11:38.685 [INFO]     Stopped consumidor-itau (direct://itau)
+10:11:38.687 [INFO]     Stopped mediador-enrutamiento (direct://enrutamiento)
+10:11:38.687 [INFO]     Stopped mediador-transformacion (direct://transformacion)
+10:11:38.687 [INFO]     Stopped rechazo-negocio (direct://rechazo)
+10:11:38.688 [INFO]     Stopped mediador-validacion (direct://validacion)
+10:11:38.688 [INFO]     Stopped dead-letter-channel (direct://dead-letter)
+10:11:38.688 [INFO]     Stopped mediador-parseo (direct://parseo)
+10:11:38.689 [INFO]     Stopped auditoria-wiretap (direct://audit)
+10:11:38.689 [INFO]     Stopped mediador-recepcion (direct://sipap-in)
+10:11:38.689 [INFO]     Stopped resultado-final (direct://resultado)
+10:11:38.707 [INFO] Apache Camel 4.4.0 (camel-1) shutdown in 153ms (uptime:2s)
 ]]></system-err>
   </testcase>
-  <testcase name="transferenciaHaciaBancoDesconocidoEsRechazada" classname="com.bcp.sipap.routes.MediadorRouteTest" time="0.111">
-    <system-err><![CDATA[18:27:31.855 [INFO] ********************************************************************************
-18:27:31.855 [INFO] Testing: transferenciaHaciaBancoDesconocidoEsRechazada() (com.bcp.sipap.routes.MediadorRouteTest)
-18:27:31.855 [INFO] ********************************************************************************
-18:27:31.877 [INFO] Skipping starting CamelContext as isUseAdviceWith is set to true.
-18:27:31.881 [INFO] AdviceWith (*) : [Log[[RESULTADO] ${body}]] --> after [To[mock:resultado]]
-18:27:31.882 [INFO] AdviceWith route after: Route(resultado-final)[From[direct:resultado] -> [OnException[[java.lang.Exception] -> [SetHeader[motivoRechazo, simple{Error inesperado en el mediador: ${exception.message}}], To[direct:dead-letter]]], Marshal[org.apache.camel.model.dataformat.JsonDataFormat@6ac97b84], Log[[RESULTADO] ${body}], To[mock:resultado]]]
-18:27:31.884 [INFO] Adviced route before/after as XML:
+  <testcase name="transferenciaHaciaBancoDesconocidoEsRechazada" classname="com.bcp.sipap.routes.MediadorRouteTest" time="0.853">
+    <system-err><![CDATA[10:11:38.779 [INFO] ********************************************************************************
+10:11:38.789 [INFO] Testing: transferenciaHaciaBancoDesconocidoEsRechazada() (com.bcp.sipap.routes.MediadorRouteTest)
+10:11:38.794 [INFO] ********************************************************************************
+10:11:38.942 [INFO] Skipping starting CamelContext as isUseAdviceWith is set to true.
+10:11:38.945 [INFO] AdviceWith (*) : [Log[[RESULTADO] ${body}]] --> after [To[mock:resultado]]
+10:11:38.947 [INFO] AdviceWith route after: Route(resultado-final)[From[direct:resultado] -> [OnException[[java.lang.Exception] -> [SetHeader[motivoRechazo, simple{Error inesperado en el mediador: ${exception.message}}], To[direct:dead-letter]]], Marshal[org.apache.camel.model.dataformat.JsonDataFormat@6ac97b84], Log[[RESULTADO] ${body}], To[mock:resultado]]]
+10:11:38.947 [INFO] Adviced route before/after as XML:
 <route xmlns="http://camel.apache.org/schema/spring" id="resultado-final">
     <from uri="direct:resultado"/>
     <onException>
@@ -176,55 +176,55 @@
     <log message="[RESULTADO] ${body}"/>
     <to uri="mock:resultado"/>
 </route>
-18:27:31.944 [INFO] Apache Camel 4.4.0 (camel-2) is starting
-18:27:31.951 [INFO] Routes startup (started:12)
-18:27:31.951 [INFO]     Started resultado-final (direct://resultado)
-18:27:31.951 [INFO]     Started mediador-recepcion (direct://sipap-in)
-18:27:31.951 [INFO]     Started auditoria-wiretap (direct://audit)
-18:27:31.951 [INFO]     Started mediador-parseo (direct://parseo)
-18:27:31.951 [INFO]     Started dead-letter-channel (direct://dead-letter)
-18:27:31.951 [INFO]     Started mediador-validacion (direct://validacion)
-18:27:31.951 [INFO]     Started rechazo-negocio (direct://rechazo)
-18:27:31.951 [INFO]     Started mediador-transformacion (direct://transformacion)
-18:27:31.951 [INFO]     Started mediador-enrutamiento (direct://enrutamiento)
-18:27:31.951 [INFO]     Started consumidor-itau (direct://itau)
-18:27:31.951 [INFO]     Started consumidor-atlas (direct://atlas)
-18:27:31.951 [INFO]     Started consumidor-familiar (direct://familiar)
-18:27:31.951 [INFO] Apache Camel 4.4.0 (camel-2) started in 7ms (build:0ms init:0ms start:7ms)
-18:27:31.953 [INFO] [MEDIADOR] Recibido TX=TX-TEST-DESCONOCIDO de 
-18:27:31.954 [INFO] [AUDITORIA] TX=TX-TEST-DESCONOCIDO QR-crudo=00020101021132400014py.gov.bcp.sip01049999021012345678905204573153036005802PY5918COMERCIO DE PRUEBA6008ASUNCION6304A1B2
-18:27:31.954 [INFO] [RECHAZO] TX=TX-TEST-DESCONOCIDO motivo=Código de entidad no reconocido: '9999'
-18:27:31.956 [INFO] [RESULTADO] {"id_transaccion":"TX-TEST-DESCONOCIDO","estado":"RECHAZADA","mensaje":"Código de entidad no reconocido: '9999'"}
-18:27:31.956 [INFO] Asserting: mock://resultado is satisfied
-18:27:31.957 [INFO] ********************************************************************************
-18:27:31.957 [INFO] Testing done: transferenciaHaciaBancoDesconocidoEsRechazada() (com.bcp.sipap.routes.MediadorRouteTest)
-18:27:31.957 [INFO] Took: 79ms (79 millis)
-18:27:31.957 [INFO] ********************************************************************************
-18:27:31.957 [INFO] Apache Camel 4.4.0 (camel-2) is shutting down (timeout:10s)
-18:27:31.963 [INFO] Routes stopped (stopped:12)
-18:27:31.963 [INFO]     Stopped consumidor-familiar (direct://familiar)
-18:27:31.963 [INFO]     Stopped consumidor-atlas (direct://atlas)
-18:27:31.963 [INFO]     Stopped consumidor-itau (direct://itau)
-18:27:31.963 [INFO]     Stopped mediador-enrutamiento (direct://enrutamiento)
-18:27:31.963 [INFO]     Stopped mediador-transformacion (direct://transformacion)
-18:27:31.963 [INFO]     Stopped rechazo-negocio (direct://rechazo)
-18:27:31.963 [INFO]     Stopped mediador-validacion (direct://validacion)
-18:27:31.964 [INFO]     Stopped dead-letter-channel (direct://dead-letter)
-18:27:31.964 [INFO]     Stopped mediador-parseo (direct://parseo)
-18:27:31.964 [INFO]     Stopped auditoria-wiretap (direct://audit)
-18:27:31.964 [INFO]     Stopped mediador-recepcion (direct://sipap-in)
-18:27:31.964 [INFO]     Stopped resultado-final (direct://resultado)
-18:27:31.964 [INFO] Apache Camel 4.4.0 (camel-2) shutdown in 6ms (uptime:0s)
+10:11:39.232 [INFO] Apache Camel 4.4.0 (camel-2) is starting
+10:11:39.342 [INFO] Routes startup (started:12)
+10:11:39.342 [INFO]     Started resultado-final (direct://resultado)
+10:11:39.342 [INFO]     Started mediador-recepcion (direct://sipap-in)
+10:11:39.342 [INFO]     Started auditoria-wiretap (direct://audit)
+10:11:39.342 [INFO]     Started mediador-parseo (direct://parseo)
+10:11:39.342 [INFO]     Started dead-letter-channel (direct://dead-letter)
+10:11:39.344 [INFO]     Started mediador-validacion (direct://validacion)
+10:11:39.345 [INFO]     Started rechazo-negocio (direct://rechazo)
+10:11:39.345 [INFO]     Started mediador-transformacion (direct://transformacion)
+10:11:39.395 [INFO]     Started mediador-enrutamiento (direct://enrutamiento)
+10:11:39.395 [INFO]     Started consumidor-itau (direct://itau)
+10:11:39.395 [INFO]     Started consumidor-atlas (direct://atlas)
+10:11:39.395 [INFO]     Started consumidor-familiar (direct://familiar)
+10:11:39.395 [INFO] Apache Camel 4.4.0 (camel-2) started in 163ms (build:0ms init:0ms start:163ms)
+10:11:39.430 [INFO] [MEDIADOR] Recibido TX=TX-TEST-DESCONOCIDO de 
+10:11:39.439 [INFO] [RECHAZO] TX=TX-TEST-DESCONOCIDO motivo=Código de entidad no reconocido: '9999'
+10:11:39.448 [INFO] [AUDITORIA] TX=TX-TEST-DESCONOCIDO QR-crudo=00020101021132400014py.gov.bcp.sip01049999021012345678905204573153036005802PY5918COMERCIO DE PRUEBA6008ASUNCION6304A1B2
+10:11:39.510 [INFO] [RESULTADO] {"id_transaccion":"TX-TEST-DESCONOCIDO","estado":"RECHAZADA","mensaje":"Código de entidad no reconocido: '9999'"}
+10:11:39.511 [INFO] Asserting: mock://resultado is satisfied
+10:11:39.522 [INFO] ********************************************************************************
+10:11:39.522 [INFO] Testing done: transferenciaHaciaBancoDesconocidoEsRechazada() (com.bcp.sipap.routes.MediadorRouteTest)
+10:11:39.522 [INFO] Took: 579ms (579 millis)
+10:11:39.522 [INFO] ********************************************************************************
+10:11:39.522 [INFO] Apache Camel 4.4.0 (camel-2) is shutting down (timeout:10s)
+10:11:39.582 [INFO] Routes stopped (stopped:12)
+10:11:39.582 [INFO]     Stopped consumidor-familiar (direct://familiar)
+10:11:39.582 [INFO]     Stopped consumidor-atlas (direct://atlas)
+10:11:39.582 [INFO]     Stopped consumidor-itau (direct://itau)
+10:11:39.582 [INFO]     Stopped mediador-enrutamiento (direct://enrutamiento)
+10:11:39.582 [INFO]     Stopped mediador-transformacion (direct://transformacion)
+10:11:39.582 [INFO]     Stopped rechazo-negocio (direct://rechazo)
+10:11:39.582 [INFO]     Stopped mediador-validacion (direct://validacion)
+10:11:39.582 [INFO]     Stopped dead-letter-channel (direct://dead-letter)
+10:11:39.582 [INFO]     Stopped mediador-parseo (direct://parseo)
+10:11:39.582 [INFO]     Stopped auditoria-wiretap (direct://audit)
+10:11:39.582 [INFO]     Stopped mediador-recepcion (direct://sipap-in)
+10:11:39.582 [INFO]     Stopped resultado-final (direct://resultado)
+10:11:39.592 [INFO] Apache Camel 4.4.0 (camel-2) shutdown in 70ms (uptime:0s)
 ]]></system-err>
   </testcase>
-  <testcase name="checksumInvalidoEsRechazado" classname="com.bcp.sipap.routes.MediadorRouteTest" time="0.094">
-    <system-err><![CDATA[18:27:31.989 [INFO] ********************************************************************************
-18:27:31.990 [INFO] Testing: checksumInvalidoEsRechazado() (com.bcp.sipap.routes.MediadorRouteTest)
-18:27:31.990 [INFO] ********************************************************************************
-18:27:32.006 [INFO] Skipping starting CamelContext as isUseAdviceWith is set to true.
-18:27:32.008 [INFO] AdviceWith (*) : [Log[[RESULTADO] ${body}]] --> after [To[mock:resultado]]
-18:27:32.008 [INFO] AdviceWith route after: Route(resultado-final)[From[direct:resultado] -> [OnException[[java.lang.Exception] -> [SetHeader[motivoRechazo, simple{Error inesperado en el mediador: ${exception.message}}], To[direct:dead-letter]]], Marshal[org.apache.camel.model.dataformat.JsonDataFormat@44c5a16f], Log[[RESULTADO] ${body}], To[mock:resultado]]]
-18:27:32.008 [INFO] Adviced route before/after as XML:
+  <testcase name="checksumInvalidoEsRechazado" classname="com.bcp.sipap.routes.MediadorRouteTest" time="0.622">
+    <system-err><![CDATA[10:11:39.639 [INFO] ********************************************************************************
+10:11:39.639 [INFO] Testing: checksumInvalidoEsRechazado() (com.bcp.sipap.routes.MediadorRouteTest)
+10:11:39.639 [INFO] ********************************************************************************
+10:11:39.886 [INFO] Skipping starting CamelContext as isUseAdviceWith is set to true.
+10:11:39.896 [INFO] AdviceWith (*) : [Log[[RESULTADO] ${body}]] --> after [To[mock:resultado]]
+10:11:39.896 [INFO] AdviceWith route after: Route(resultado-final)[From[direct:resultado] -> [OnException[[java.lang.Exception] -> [SetHeader[motivoRechazo, simple{Error inesperado en el mediador: ${exception.message}}], To[direct:dead-letter]]], Marshal[org.apache.camel.model.dataformat.JsonDataFormat@44c5a16f], Log[[RESULTADO] ${body}], To[mock:resultado]]]
+10:11:39.897 [INFO] Adviced route before/after as XML:
 <route xmlns="http://camel.apache.org/schema/spring" id="resultado-final">
     <from uri="direct:resultado"/>
     <onException>
@@ -255,45 +255,45 @@
     <log message="[RESULTADO] ${body}"/>
     <to uri="mock:resultado"/>
 </route>
-18:27:32.056 [INFO] Apache Camel 4.4.0 (camel-3) is starting
-18:27:32.061 [INFO] Routes startup (started:12)
-18:27:32.061 [INFO]     Started resultado-final (direct://resultado)
-18:27:32.061 [INFO]     Started mediador-recepcion (direct://sipap-in)
-18:27:32.061 [INFO]     Started auditoria-wiretap (direct://audit)
-18:27:32.061 [INFO]     Started mediador-parseo (direct://parseo)
-18:27:32.061 [INFO]     Started dead-letter-channel (direct://dead-letter)
-18:27:32.061 [INFO]     Started mediador-validacion (direct://validacion)
-18:27:32.061 [INFO]     Started rechazo-negocio (direct://rechazo)
-18:27:32.061 [INFO]     Started mediador-transformacion (direct://transformacion)
-18:27:32.061 [INFO]     Started mediador-enrutamiento (direct://enrutamiento)
-18:27:32.061 [INFO]     Started consumidor-itau (direct://itau)
-18:27:32.061 [INFO]     Started consumidor-atlas (direct://atlas)
-18:27:32.061 [INFO]     Started consumidor-familiar (direct://familiar)
-18:27:32.061 [INFO] Apache Camel 4.4.0 (camel-3) started in 4ms (build:0ms init:0ms start:4ms)
-18:27:32.064 [INFO] [MEDIADOR] Recibido TX=TX-TEST-CHECKSUM de 
-18:27:32.064 [INFO] [AUDITORIA] TX=TX-TEST-CHECKSUM QR-crudo=00020101021132400014py.gov.bcp.sip01040007021012345678905204573153036005802PY5918COMERCIO DE PRUEBA6008ASUNCION63049999
-18:27:32.065 [INFO] [RECHAZO] TX=TX-TEST-CHECKSUM motivo=Checksum inválido: '9999' (se esperaba A1B2)
-18:27:32.067 [INFO] [RESULTADO] {"id_transaccion":"TX-TEST-CHECKSUM","estado":"RECHAZADA","mensaje":"Checksum inválido: '9999' (se esperaba A1B2)"}
-18:27:32.067 [INFO] Asserting: mock://resultado is satisfied
-18:27:32.067 [INFO] ********************************************************************************
-18:27:32.068 [INFO] Testing done: checksumInvalidoEsRechazado() (com.bcp.sipap.routes.MediadorRouteTest)
-18:27:32.068 [INFO] Took: 61ms (61 millis)
-18:27:32.068 [INFO] ********************************************************************************
-18:27:32.068 [INFO] Apache Camel 4.4.0 (camel-3) is shutting down (timeout:10s)
-18:27:32.073 [INFO] Routes stopped (stopped:12)
-18:27:32.073 [INFO]     Stopped consumidor-familiar (direct://familiar)
-18:27:32.073 [INFO]     Stopped consumidor-atlas (direct://atlas)
-18:27:32.073 [INFO]     Stopped consumidor-itau (direct://itau)
-18:27:32.073 [INFO]     Stopped mediador-enrutamiento (direct://enrutamiento)
-18:27:32.073 [INFO]     Stopped mediador-transformacion (direct://transformacion)
-18:27:32.073 [INFO]     Stopped rechazo-negocio (direct://rechazo)
-18:27:32.074 [INFO]     Stopped mediador-validacion (direct://validacion)
-18:27:32.074 [INFO]     Stopped dead-letter-channel (direct://dead-letter)
-18:27:32.074 [INFO]     Stopped mediador-parseo (direct://parseo)
-18:27:32.074 [INFO]     Stopped auditoria-wiretap (direct://audit)
-18:27:32.074 [INFO]     Stopped mediador-recepcion (direct://sipap-in)
-18:27:32.074 [INFO]     Stopped resultado-final (direct://resultado)
-18:27:32.074 [INFO] Apache Camel 4.4.0 (camel-3) shutdown in 5ms (uptime:0s)
+10:11:40.147 [INFO] Apache Camel 4.4.0 (camel-3) is starting
+10:11:40.176 [INFO] Routes startup (started:12)
+10:11:40.176 [INFO]     Started resultado-final (direct://resultado)
+10:11:40.176 [INFO]     Started mediador-recepcion (direct://sipap-in)
+10:11:40.176 [INFO]     Started auditoria-wiretap (direct://audit)
+10:11:40.176 [INFO]     Started mediador-parseo (direct://parseo)
+10:11:40.176 [INFO]     Started dead-letter-channel (direct://dead-letter)
+10:11:40.176 [INFO]     Started mediador-validacion (direct://validacion)
+10:11:40.176 [INFO]     Started rechazo-negocio (direct://rechazo)
+10:11:40.176 [INFO]     Started mediador-transformacion (direct://transformacion)
+10:11:40.176 [INFO]     Started mediador-enrutamiento (direct://enrutamiento)
+10:11:40.177 [INFO]     Started consumidor-itau (direct://itau)
+10:11:40.177 [INFO]     Started consumidor-atlas (direct://atlas)
+10:11:40.177 [INFO]     Started consumidor-familiar (direct://familiar)
+10:11:40.177 [INFO] Apache Camel 4.4.0 (camel-3) started in 29ms (build:0ms init:0ms start:29ms)
+10:11:40.192 [INFO] [MEDIADOR] Recibido TX=TX-TEST-CHECKSUM de 
+10:11:40.193 [INFO] [RECHAZO] TX=TX-TEST-CHECKSUM motivo=Checksum inválido: '9999' (se esperaba A1B2)
+10:11:40.206 [INFO] [RESULTADO] {"id_transaccion":"TX-TEST-CHECKSUM","estado":"RECHAZADA","mensaje":"Checksum inválido: '9999' (se esperaba A1B2)"}
+10:11:40.207 [INFO] Asserting: mock://resultado is satisfied
+10:11:40.207 [INFO] ********************************************************************************
+10:11:40.207 [INFO] Testing done: checksumInvalidoEsRechazado() (com.bcp.sipap.routes.MediadorRouteTest)
+10:11:40.208 [INFO] Took: 320ms (320 millis)
+10:11:40.208 [INFO] ********************************************************************************
+10:11:40.208 [INFO] Apache Camel 4.4.0 (camel-3) is shutting down (timeout:10s)
+10:11:40.219 [INFO] [AUDITORIA] TX=TX-TEST-CHECKSUM QR-crudo=00020101021132400014py.gov.bcp.sip01040007021012345678905204573153036005802PY5918COMERCIO DE PRUEBA6008ASUNCION63049999
+10:11:40.248 [INFO] Routes stopped (stopped:12)
+10:11:40.249 [INFO]     Stopped consumidor-familiar (direct://familiar)
+10:11:40.249 [INFO]     Stopped consumidor-atlas (direct://atlas)
+10:11:40.249 [INFO]     Stopped consumidor-itau (direct://itau)
+10:11:40.249 [INFO]     Stopped mediador-enrutamiento (direct://enrutamiento)
+10:11:40.249 [INFO]     Stopped mediador-transformacion (direct://transformacion)
+10:11:40.249 [INFO]     Stopped rechazo-negocio (direct://rechazo)
+10:11:40.249 [INFO]     Stopped mediador-validacion (direct://validacion)
+10:11:40.249 [INFO]     Stopped dead-letter-channel (direct://dead-letter)
+10:11:40.249 [INFO]     Stopped mediador-parseo (direct://parseo)
+10:11:40.249 [INFO]     Stopped auditoria-wiretap (direct://audit)
+10:11:40.249 [INFO]     Stopped mediador-recepcion (direct://sipap-in)
+10:11:40.250 [INFO]     Stopped resultado-final (direct://resultado)
+10:11:40.250 [INFO] Apache Camel 4.4.0 (camel-3) shutdown in 42ms (uptime:0s)
 ]]></system-err>
   </testcase>
 </testsuite>

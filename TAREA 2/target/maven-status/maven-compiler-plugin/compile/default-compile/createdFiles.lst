@@ -2,6 +2,7 @@ com\sipap\model\CanonicalTransfer.class
 com\sipap\processor\BankResponseProcessor.class
 com\sipap\model\EstadoTransferencia.class
 com\sipap\util\MessageStore.class
+com\sipap\config\JacksonConfig.class
 com\sipap\routes\RoutingToBankQueuesRoute.class
 com\sipap\validation\DateRule.class
 com\sipap\processor\ParseAndValidateProcessor.class

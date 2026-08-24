@@ -1,0 +1,7 @@
+com\sipap\routes\EmbeddedArtemisSupport.class
+com\sipap\validation\DateRuleTest.class
+com\sipap\validation\AmountRuleTest.class
+com\sipap\validation\IdempotencyStoreTest.class
+com\sipap\routes\EndToEndFlowTest.class
+com\sipap\util\QrTestFixtures.class
+com\sipap\parser\QrTlvParserTest.class
